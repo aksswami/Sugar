@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0948ED2C1CB29E59007A49F5 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948ED2B1CB29E59007A49F5 /* UIView+Nib.swift */; };
+		0948ED2D1CB2A001007A49F5 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948ED2B1CB29E59007A49F5 /* UIView+Nib.swift */; };
 		39D4BC221C9C2A6E005D6EC0 /* NSDate+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4BC211C9C2A6E005D6EC0 /* NSDate+Compare.swift */; };
 		39D4BC261C9C2DCC005D6EC0 /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4BC251C9C2DCC005D6EC0 /* String+Regex.swift */; };
 		39D4BC281C9C2DDE005D6EC0 /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4BC271C9C2DDE005D6EC0 /* String+Validation.swift */; };
@@ -85,6 +87,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0948ED2B1CB29E59007A49F5 /* UIView+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
 		39D4BC211C9C2A6E005D6EC0 /* NSDate+Compare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Compare.swift"; sourceTree = "<group>"; };
 		39D4BC251C9C2DCC005D6EC0 /* String+Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Regex.swift"; sourceTree = "<group>"; };
 		39D4BC271C9C2DDE005D6EC0 /* String+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
@@ -195,6 +198,7 @@
 				39FAD61E1CA59371009BD40C /* UIView+Frame.swift */,
 				BDA447A41C29470D003FDEAD /* UIView+Optimize.swift */,
 				BDF36EA01CAD272600ED5749 /* UIView+AddSubviews.swift */,
+				0948ED2B1CB29E59007A49F5 /* UIView+Nib.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -543,6 +547,7 @@
 				BD0E01C81C3BCFD50092C477 /* GrandCentralDispatch.swift in Sources */,
 				BDA447BB1C294723003FDEAD /* TypeAlias.swift in Sources */,
 				BDA447BC1C294723003FDEAD /* UITesting.swift in Sources */,
+				0948ED2C1CB29E59007A49F5 /* UIView+Nib.swift in Sources */,
 				BDA447BD1C294723003FDEAD /* UnitTesting.swift in Sources */,
 				BDAF15621C3917110008A5D6 /* Then.swift in Sources */,
 				D52D72431C3BDEA5009A4426 /* Swizzler.swift in Sources */,
@@ -573,6 +578,7 @@
 				BDA447CA1C294787003FDEAD /* TestOperators.swift in Sources */,
 				BDA4481C1C295A01003FDEAD /* TestStringExtensionCoreFoundation.swift in Sources */,
 				BDA447CC1C294787003FDEAD /* TestQueueable.swift in Sources */,
+				0948ED2D1CB2A001007A49F5 /* UIView+Nib.swift in Sources */,
 				BD37B4EF1C2C07220069CD4A /* TestUnitTesting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
