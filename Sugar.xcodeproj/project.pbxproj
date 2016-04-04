@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		0948ED2C1CB29E59007A49F5 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948ED2B1CB29E59007A49F5 /* UIView+Nib.swift */; };
 		0948ED2D1CB2A001007A49F5 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948ED2B1CB29E59007A49F5 /* UIView+Nib.swift */; };
+		0948ED2F1CB2A59B007A49F5 /* NSTimeInterval+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948ED2E1CB2A59B007A49F5 /* NSTimeInterval+.swift */; };
+		0948ED331CB2A7B8007A49F5 /* NSTimeInterval+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948ED2E1CB2A59B007A49F5 /* NSTimeInterval+.swift */; };
+		0948ED351CB2A861007A49F5 /* TestTimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948ED301CB2A71C007A49F5 /* TestTimeInterval.swift */; };
+		0948ED361CB2A862007A49F5 /* TestTimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0948ED301CB2A71C007A49F5 /* TestTimeInterval.swift */; };
 		39D4BC221C9C2A6E005D6EC0 /* NSDate+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4BC211C9C2A6E005D6EC0 /* NSDate+Compare.swift */; };
 		39D4BC261C9C2DCC005D6EC0 /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4BC251C9C2DCC005D6EC0 /* String+Regex.swift */; };
 		39D4BC281C9C2DDE005D6EC0 /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4BC271C9C2DDE005D6EC0 /* String+Validation.swift */; };
@@ -88,6 +92,8 @@
 
 /* Begin PBXFileReference section */
 		0948ED2B1CB29E59007A49F5 /* UIView+Nib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		0948ED2E1CB2A59B007A49F5 /* NSTimeInterval+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTimeInterval+.swift"; sourceTree = "<group>"; };
+		0948ED301CB2A71C007A49F5 /* TestTimeInterval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTimeInterval.swift; sourceTree = "<group>"; };
 		39D4BC211C9C2A6E005D6EC0 /* NSDate+Compare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Compare.swift"; sourceTree = "<group>"; };
 		39D4BC251C9C2DCC005D6EC0 /* String+Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Regex.swift"; sourceTree = "<group>"; };
 		39D4BC271C9C2DDE005D6EC0 /* String+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
@@ -237,6 +243,7 @@
 				39D4BC251C9C2DCC005D6EC0 /* String+Regex.swift */,
 				BDA447AC1C29470D003FDEAD /* String+URLStringConvertible.swift */,
 				39D4BC271C9C2DDE005D6EC0 /* String+Validation.swift */,
+				0948ED2E1CB2A59B007A49F5 /* NSTimeInterval+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -251,6 +258,7 @@
 				BD37B4EE1C2C07220069CD4A /* TestUnitTesting.swift */,
 				D52D72451C3BDFAB009A4426 /* TestSwizzler.swift */,
 				D21D1B931CAE680F00BD068E /* TestDate.swift */,
+				0948ED301CB2A71C007A49F5 /* TestTimeInterval.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -501,6 +509,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0948ED331CB2A7B8007A49F5 /* NSTimeInterval+.swift in Sources */,
 				D52D72441C3BDEA5009A4426 /* Swizzler.swift in Sources */,
 				BD37B4F11C2C08430069CD4A /* String+CoreFoundation.swift in Sources */,
 				BD0E01CC1C3BCFEF0092C477 /* Localization.swift in Sources */,
@@ -527,6 +536,7 @@
 				BDA4481D1C295A01003FDEAD /* TestStringExtensionCoreFoundation.swift in Sources */,
 				BDA447CF1C294787003FDEAD /* TestTruncate.swift in Sources */,
 				BD18D5A21C391926002E6547 /* TestThen.swift in Sources */,
+				0948ED361CB2A862007A49F5 /* TestTimeInterval.swift in Sources */,
 				BD37B4F01C2C07220069CD4A /* TestUnitTesting.swift in Sources */,
 				D21D1B951CAE680F00BD068E /* TestDate.swift in Sources */,
 			);
@@ -536,6 +546,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0948ED2F1CB2A59B007A49F5 /* NSTimeInterval+.swift in Sources */,
 				39D4BC221C9C2A6E005D6EC0 /* NSDate+Compare.swift in Sources */,
 				BD81A14B1C73A596009955E3 /* Result.swift in Sources */,
 				BDA447B61C294723003FDEAD /* Array+Queueable.swift in Sources */,
@@ -580,6 +591,7 @@
 				BDA447CC1C294787003FDEAD /* TestQueueable.swift in Sources */,
 				0948ED2D1CB2A001007A49F5 /* UIView+Nib.swift in Sources */,
 				BD37B4EF1C2C07220069CD4A /* TestUnitTesting.swift in Sources */,
+				0948ED351CB2A861007A49F5 /* TestTimeInterval.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
