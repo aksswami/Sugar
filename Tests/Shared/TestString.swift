@@ -1,8 +1,8 @@
 import Foundation
 import XCTest
-@testable import Sugar
+import Sugar
 
-class StringTruncateTests: XCTestCase {
+class StringTests: XCTestCase {
 
   let testString = "John Hyperseed"
 
@@ -17,5 +17,10 @@ class StringTruncateTests: XCTestCase {
 
   func testTruncateWithShortString() {
     XCTAssertEqual(testString.truncate(20), testString)
+  }
+
+  func testUppercase() {
+    XCTAssertEqual("hello".uppercaseFirstLetter, "Hello")
+    XCTAssertEqual("".uppercaseFirstLetter, "")
   }
 }
